@@ -1,3 +1,3 @@
-var bonjour = 'Bonjour monde'
-
-console.log(bonjour)
+var name = ''
+name = prompt('quel est ton nom')
+console.log('Bonjour ' + name)

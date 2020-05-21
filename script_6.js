@@ -45,7 +45,8 @@ function ARN(str) {
 
         }
     });
-    console.log(protein);
+    console.log(protein.replace(/ (?!$)/g, "-"));
+    // (?!$) => sélectionne le dernier caractère
 }
 
 ARN('UUACGCAGUAGA');
